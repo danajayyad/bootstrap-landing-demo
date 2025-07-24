@@ -1,0 +1,171 @@
+.text-primary{
+    color: rgb(70, 70, 185) !important;
+}
+.bg-primary{
+    background-color: rgb(70, 70, 185) !important;
+
+}
+.btn-primary{
+    background-color: rgb(70, 70, 185) !important;
+
+}
+a {
+    text-decoration: none;
+}
+
+.custom-slide-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.custom-slide-left.show {
+    transform: translateX(0);
+    z-index: 1000;
+}
+
+
+.nav-link:hover {
+    color: grey !important;
+}
+
+
+.banner {
+
+    height: 100vh;
+    background-image: url("./corporate-business-handshake-partners.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-height {
+    height: 350px;
+}
+
+.carousel-custom-img {
+    height: 400px;
+    width: 100%;
+    max-width: 900px;
+    object-fit: cover;
+}
+
+.logo-container {
+    height: 210px;
+    width: 270px;
+
+}
+
+
+
+.price {
+    font-size: 4rem;
+}
+
+.upload-btn {
+    background-color: rgba(0, 0, 255, 0.103);
+}
+
+.upload-btn:hover {
+    background-color: rgba(0, 0, 255, 0.489);
+
+
+
+}
+
+.upload-btn {
+    width: 65%;
+}
+
+.footer {
+    height: 200px;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.footer .site {
+    font-size: 0.7rem;
+}
+
+@media(min-width:992px) {
+    .card-custom-flex-lg {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        max-width: 700px;
+        padding: 2rem;
+    }
+
+    .payment-paragraph {
+        max-width: 400px;
+    }
+
+    .payment-title {
+        max-width: 370px;
+    }
+
+    .container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .card-header-left {
+        text-align: left !important;
+        padding-left: 2rem;
+
+    }
+
+
+
+
+}
+
+
+@media (max-width: 575.98px) {
+    .container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+
+    .upload-btn {
+        width: 65%;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+    .banner {
+        height: 80vh;
+    }
+
+    .banner-title {
+        font-size: 4rem;
+    }
+
+    .banner-subtitle {
+        font-size: 5rem;
+    }
+
+    .lists-container {
+        flex-direction: column;
+    }
+
+    .pricing-section-title,
+    .pricing-section-text {
+        max-width: 370px;
+    }
+
+
+
+}
